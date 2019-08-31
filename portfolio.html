@@ -9,65 +9,79 @@
     <title>Bootstrap-Portfolio Homework</title>
 </head>
 <body>
-    
-<div class= row1>
-<div class= "header">
-    <h1> Ashley Clark </h1>
-    <ul class="nav justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link active" href="./index.html">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./contact.html">Contact</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./portfolio.html">Portfolio</a>
-      </li>
-    </ul>
-</div>
-</div>
+
+<div class="row">
+    <div class="col-12 col-sm-6 col-md-7">
+        <h1> Ashley Clark </h1>
+    </div>
+<nav class= "nav">
+              <ul>
+              <li class= "nav-item">
+                <a class="nav-link" href="./index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./portfolio.html">Portfolio</a>
+              </li>
+            </ul>
+</nav>
 </div>
 
-<div class="outer-container">
-
-<div class="inner-container">
+        
+<div class="container-fluid outer-container">
+<div class="container-fluid inner-container">
     <h2> Portfolio </h2>
     <hr>
 
-    <section class="float-md-left">
-                    <table>
-                        <tr>
-                            <td> 
-                                <div class="container">
-                                    <img src="./placeholder.jpg" alt="pic1" class="img-thumbnail thumbnail">
-                                </div>
-                            </td>
-                            <td> 
-                                 <div class="container">
-                                    <img src="./placeholder.jpg" alt="pic2" class="img-thumbnail thumbnail">  
+<section>
+            <table class="table table-borderless table-responsive">
+                <tr>
+                    <td> 
+                        <div class="col-5 img-container">
+                            <img class= "thumbnail" src="./placeholder.jpg" alt="pic1">
+                            <div class="text-block">
+                                <p>Hangman</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td> 
+                         <div class="col-5 img-container">
+                            <img class="thumbnail" src="./placeholder.jpg" alt="pic2">
+                            <div class="text-block">
+                                <p>RPG Game</p>
+                          </div>
+                </tr>
+                <tr>
+                    <td> 
+                        <div class="col-5 img-container">
+                            <img class="thumbnail" src="./placeholder.jpg" alt="pic3">
+                            <div class="text-block">
+                                <p>Trivia Game</p>
+                            </div>
+                    </td>
+                    
+                    <td> 
+                         <div class="col-5 img-container">
+                            <img class="thumbnail" src="./placeholder.jpg" alt="pic4">
+                                <div class="text-block">
+                                        <p>Rutfers Info Widget</p>
                                   </div>
-                        </tr>
-                        <tr>
-                            <td> 
-                                <div class="container">
-                                    <img src="./placeholder.jpg" alt="pic3" class="img-thumbnail thumbnail">
-                            </td>
-                            
-                            <td> 
-                                 <div class="container">
-                                    <img src="./placeholder.jpg" alt="pic4" class="img-thumbnail thumbnail">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td> <div class="container">
-                                    <img src="./placeholder.jpg" alt="pic5" class="img-thumbnail thumbnail">
-                            </td>
-                        </tr>
-                    </table>
-            </section>
-    </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <div class="col-5 img-container">
+                            <img class="thumbnail" src="./placeholder.jpg" alt="pic5">
+                            <div class="text-block">
+                                <p>Rock Paper Scissors</p>
+                          </div>
+                    </td>
+                </tr>
+            </table>
+        </section>
 </div>
-</div>        
+</div>       
 
 </body>
 </html>
